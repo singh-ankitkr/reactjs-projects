@@ -28,7 +28,7 @@ class App extends React.Component {
     render(){
         return (
             <div className="ui container" style={{marginTop: '10px'}}>
-                {/*<input type="file" onChange={this.encodeImageFileAsUrl} />*/}
+                <input type="file" onChange={this.encodeImageFileAsUrl} />
                 <SearchBar onSubmit={this.onSearchSubmit}/>
                 <ImageList images={this.state.images}/>
             </div>
